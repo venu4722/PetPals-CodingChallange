@@ -24,7 +24,7 @@ public class AdoptionEventController {
 		        if (adoptionEvents == null) {
 		            throw new AdoptionException("The event you are looking is not present. please check");
 		        }
-		        adoptionid = true; // Set flag to true if the vehicle is available
+		        adoptionid = true; 
 		    } catch (AdoptionException re) {
 		        System.out.println(re.getMessage());
 		        System.out.println("Enter AdoptionEventId:");
