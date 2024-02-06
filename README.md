@@ -25,3 +25,10 @@ The Adoption Event Management section includes the following functionalities:
 
 - **Participant Registration:** Individuals interested in attending adoption events can register as participants to receive updates and notifications.
 - **Hosting Adoption Events:** PetPals organizes adoption events where potential adopters can meet and interact with pets available for adoption. Hosts can schedule, manage, and promote these events
+
+## Technologies Used
+
+- **Backend:** Core Java
+- **Frontend:** Eclipse Console (used java switch cases)
+- **Database:** MYSQL
+- **Version Control:** Git, GitHub
