@@ -1,3 +1,5 @@
+-------------------------------------------------- PetPals - A Pet Adoption Platform   --------------------------
+
 PetPals - A Pet Adoption Platform
 PetPals is a platform designed to facilitate pet adoption, manage donations, and organize adoption events.
 
