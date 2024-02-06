@@ -20,16 +20,16 @@ public class PetsController {
 		String petName=scanner.nextLine();
 		System.out.println("Enter the pet age:");
 		int petAge=scanner.nextInt();
-		boolean validEmailEntered = false;
-		while (!validEmailEntered) {
+		boolean validAge = false;
+		while (!validAge) {
 			try {
 				if (petAge<0) {
 					throw new InvalidPetAgeException("PetAge should be a positive Integer");
 				}
-				validEmailEntered = true;
+				validAge = true;
 			} catch (InvalidPetAgeException ine) {
 				ine.getMessage();
-				System.out.println("Invalid Age. Please enter a valid email:");
+				System.out.println("Invalid Age. Please enter a valid age:");
 				petAge = scanner.nextInt();
 			}
 		}
